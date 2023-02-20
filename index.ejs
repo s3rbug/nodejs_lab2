@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Node.js work 2</title>
+  <style>
+    li {
+      font-size: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Новини з сайту <%= URL %>:</h2>
+  <ul>
+    <% for(var i=0; i<articles.length; i++) { %>
+      <li>
+        <a rel="noreferrer noopener" href=<%=articles[i].filename %>>
+          <%= articles[i].title %>
+        </a>
+      </li>
+      <% } %>
+  </ul>
+</body>
+
+</html>
