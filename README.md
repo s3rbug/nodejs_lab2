@@ -4,11 +4,15 @@
 
 ### yarn
 
-> yarn start
+```bash
+yarn start
+```
 
 ### npm
 
-> npm run start
+```bash
+npm run start
+```
 
 ## Контрольні питання
 
